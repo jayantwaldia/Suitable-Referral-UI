@@ -17,6 +17,11 @@ function SearchComponent() {
       <div className="flex">
         <input
           onChange={(e) => setNameInput(e.target.value)}
+          onKeyUp={(e) => {
+            if (e.keyCode === 13) {
+              setName(nameInput);
+            }
+          }}
           type="text"
           className="px-3 py-3 bg-white border shadow-sm w-full  border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-l-md sm:text-sm focus:ring-1"
           placeholder="Search"
