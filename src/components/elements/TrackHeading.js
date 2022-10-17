@@ -2,7 +2,7 @@ import React from "react";
 
 function TrackHeading() {
   return (
-    <div className="flex items-center bg-slate-200 py-5 ">
+    <div className="flex items-center bg-slate-200 py-5 overflow-hidden">
       <div className="w-[20%]">
         <p className="text-center font-bold text-sm md:text-md">Candidate</p>
       </div>
