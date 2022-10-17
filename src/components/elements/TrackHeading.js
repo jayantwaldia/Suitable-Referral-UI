@@ -4,7 +4,7 @@ function TrackHeading() {
   return (
     <div className="flex items-center bg-slate-200 py-5 ">
       <div className="w-[20%]">
-        <p className="text-center font-bold text-md md:text-lg">Candidate</p>
+        <p className="text-center font-bold text-sm md:text-md">Candidate</p>
       </div>
       <div className="w-[80%] flex justify-between px-5 text-sm md:text-md">
         <div>Referred</div>
@@ -13,7 +13,7 @@ function TrackHeading() {
         <div>Joined</div>
       </div>
       <div className="w-[20%]">
-        <p className="text-center font-bold text-md md:text-lg">Reward</p>
+        <p className="text-center font-bold text-sm md:text-md">Reward</p>
       </div>
     </div>
   );

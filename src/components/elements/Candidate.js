@@ -48,7 +48,7 @@ function Candidate() {
             </div>
 
             <div className="w-[20%] flex items-center justify-center gap-2">
-              <p className="text-center">${candidate.reward} </p>
+              <p className="text-center text-xl">${candidate.reward} </p>
               {candidate.status === 4 && (
                 <img src={congrats} alt="congrats" className="w-5 h-5"></img>
               )}
